@@ -43,8 +43,7 @@ public class MainActivity extends AppCompatActivity implements IWXRenderListener
     public void onException(WXSDKInstance instance, String errCode, String msg) {
 
     }
-
-
+    
 
     @Override
     protected void onResume() {

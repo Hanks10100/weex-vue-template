@@ -1,0 +1,6 @@
+{
+  "name": "weex-vue-template",
+  "version": "0.0.1",
+  "license": "Apache-2.0",
+  "description": "A template project for using Vue 2.x in Weex."
+}

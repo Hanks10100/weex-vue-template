@@ -1,5 +1,5 @@
 # {{ name }}
 
-> {{ description }}
+Weex Vue project.
 
 ## Setup

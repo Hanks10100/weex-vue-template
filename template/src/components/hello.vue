@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
     <text class="title">Weex Vue Demo</text>
-    <text class="subtitle">This component is written in Vue 2.0 Syntax.</text>
+    <text class="subtitle">This component is written in Vue 2.x Syntax.</text>
   </div>
 </template>
 

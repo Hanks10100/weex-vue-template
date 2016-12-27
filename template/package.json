@@ -1,8 +1,7 @@
 {
   "name": "{{ name }}",
   "version": "1.0.0",
-  "description": "{{ description }}",
-  "author": "{{ author }}",
+  "description": "Weex Vue project",
   "private": true,
   "keywords": [
     "weex",

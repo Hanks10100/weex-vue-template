@@ -1,0 +1,40 @@
+{
+  "name": "{{ name }}",
+  "version": "1.0.0",
+  "description": "{{ description }}",
+  "author": "{{ author }}",
+  "private": true,
+  "keywords": [
+    "weex",
+    "vue",
+    "android",
+    "ios"
+  ],
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "scripts": {},
+  "dependencies": {
+    "vue": "^2.1.7",
+    "weex-vue-render": "^0.1.0-beta.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-es2015": "^6.18.0",
+    "css-loader": "^0.26.1",
+    "eslint": "^3.12.2",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-config-weex": "^0.1.4",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "json-loader": "^0.5.4",
+    "vue-loader": "^10.0.2",
+    "vue-template-compiler": "^2.1.7",
+    "webpack": "^1.14.0",
+    "weex-loader": "^0.4.1",
+    "weex-vue-loader": "^0.2.3"
+  }
+}

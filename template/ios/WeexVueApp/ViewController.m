@@ -23,7 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    _weexHeight = self.view.frame.size.height - 64;
+    _weexHeight = self.view.frame.size.height - 20;
     [self.navigationController.navigationBar setHidden:YES];
     [self render];
 }
@@ -38,7 +38,7 @@
     _instance = [[WXSDKInstance alloc] init];
     _instance.viewController = self;
     CGFloat width = self.view.frame.size.width;
-    _instance.frame = CGRectMake(self.view.frame.size.width-width, 0, width, _weexHeight);
+    _instance.frame = CGRectMake(self.view.frame.size.width-width, 20, width, _weexHeight);
     
     __weak typeof(self) weakSelf = self;
     _instance.onCreate = ^(UIView *view) {
@@ -58,9 +58,9 @@
     _instance.updateFinish = ^(UIView *view) {
         NSLog(@"update Finish");
     };
-    NSString *url = [NSString stringWithFormat:@"file://%@/index.js",[NSBundle mainBundle].bundlePath];
+    NSString *url = [[NSBundle mainBundle] pathForResource:@"index.js" ofType:nil];
     
-    [_instance renderWithURL:[NSURL URLWithString:url] options:@{@"bundleUrl":url} data:nil];
+    [_instance renderWithURL:[NSURL fileURLWithPath:url] options:@{@"bundleUrl":url} data:nil];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1754BCA01E153DF300814558 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = 1754BC9F1E153DF300814558 /* index.js */; };
 		1793A0A91E1268490023554F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1793A0A81E1268490023554F /* main.m */; };
 		1793A0AC1E1268490023554F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1793A0AB1E1268490023554F /* AppDelegate.m */; };
 		1793A0AF1E1268490023554F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1793A0AE1E1268490023554F /* ViewController.m */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		081DEDCA65FE6A31A15223E9 /* Pods-WeexVueApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeexVueApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeexVueApp/Pods-WeexVueApp.debug.xcconfig"; sourceTree = "<group>"; };
+		1754BC9F1E153DF300814558 /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = index.js; path = assets/index.js; sourceTree = "<group>"; };
 		1793A0A41E1268490023554F /* WeexVueApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeexVueApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1793A0A81E1268490023554F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1793A0AA1E1268490023554F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 		1793A0E31E12711B0023554F /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				1754BC9F1E153DF300814558 /* index.js */,
 			);
 			name = assets;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 				1793A0B71E1268490023554F /* LaunchScreen.storyboard in Resources */,
 				1793A0B41E1268490023554F /* Assets.xcassets in Resources */,
 				1793A0B21E1268490023554F /* Main.storyboard in Resources */,
+				1754BCA01E153DF300814558 /* index.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

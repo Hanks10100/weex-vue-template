@@ -11,12 +11,12 @@
     justify-content: center;
   }
   .weex {
-   font-size: 60px;
+   font-size: 80px;
    text-align: center;
    color: #1B90F7;
   }
   .vue {
-   font-size: 60px;
+   font-size: 80px;
    text-align: center;
    margin-top: 30px;
    color: #41B883;

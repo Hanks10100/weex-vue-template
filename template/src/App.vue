@@ -1,24 +1,24 @@
 <template>
-  <div class="view">
-    <hello></hello>
+  <div class="wrapper">
+    <text class="weex">Hello Weex !</text>
+    <text class="vue">Hello Vue !</text>
   </div>
 </template>
 
-<script>
-  import Hello from './components/hello.vue'
-
-  export default {
-    name: 'app',
-    components: {
-      Hello
-    }
-  }
-</script>
-
 <style scoped>
-  .view {
-    width: 100%;
-    height: 100%;
-    background-color: #F5F5F5;
+  .wrapper {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .weex {
+   font-size: 60px;
+   text-align: center;
+   color: #1B90F7;
+  }
+  .vue {
+   font-size: 60px;
+   text-align: center;
+   margin-top: 30px;
+   color: #41B883;
   }
 </style>

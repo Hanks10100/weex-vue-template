@@ -1,8 +1,7 @@
 // import Vue from 'vue'
 import App from './App.vue'
 
+App.el = '#app'
+
 /* eslint-disable */
-new Vue({
-  el: '#app',
-  render: h => h(App)
-})
+new Vue(App)

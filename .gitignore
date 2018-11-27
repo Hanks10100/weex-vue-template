@@ -1,0 +1,43 @@
+# Editor directories and files
+.DS_Store
+.idea
+.vscode
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.pid.lock
+*.apk
+*.ap_
+*.class
+*.dex
+*.seed
+*.tgz
+
+# Dependency directories
+.npm
+.eslintcache
+.yarn-integrity
+node_modules/
+jspm_packages/
+
+# Typescript v1 declaration files
+typings/
+
+# Coverage directory used by tools like istanbul
+coverage
+
+#### =========== Custom =========== ####
+
+dist
+package-lock.json
+packages/**/*.js

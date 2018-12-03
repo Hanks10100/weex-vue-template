@@ -1,17 +1,17 @@
 const path = require('path')
 const webpack = require('webpack')
 const VueLoaderPlugin = require('vue-loader/lib/plugin')
-// const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin')
 
 function generateConfig (type) {
   const webpackConfig = {
     entry: {
       [type]: './src/index.js',
-      // [`${type}.min`]: './src/index.js',
+      [`${type}.min`]: './src/index.js',
     },
     output: {
       path: path.resolve(__dirname, 'dist'),
-      filename: '[name].js'
+      filename: 'bundle.[name].js'
     },
     mode: 'production',
     optimization: { minimize: false },
@@ -48,7 +48,12 @@ function generateConfig (type) {
       ]
     },
     plugins: [
-      // new UglifyJsPlugin({ include: /\.min\.js$/ }),
+      new UglifyJSPlugin({
+        parallel: true,
+        // include: /\.min\.js$/,
+        include: /web\.min\.js$/,
+        // uglifyOptions: { }
+      }),
       new webpack.BannerPlugin({
         raw: true,
         entryOnly: true,

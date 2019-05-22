@@ -35,7 +35,7 @@
     "vue-template-compiler": "2.5.19",
     "webpack": "4.27.1",
     "webpack-cli": "3.1.2",
-    "webpack-dev-server": "3.1.10",
+    "webpack-dev-server": "3.1.11",
     "weex-loader": "0.7.12"
   }
 }

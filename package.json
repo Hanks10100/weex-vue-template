@@ -15,7 +15,7 @@
   "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.0.0",
-    "autoprefixer": "^9.4.0",
+    "autoprefixer": "^10.0.0",
     "postcss-loader": "^3.0.0",
     "postcss-plugin-px2rem": "^0.8.0",
     "postcss-plugin-weex": "^0.1.7",
